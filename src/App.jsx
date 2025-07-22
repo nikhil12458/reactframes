@@ -21,7 +21,7 @@ const App = () => {
   })
   
   const preloadImages = () => {
-    for(let i = 0; i<=vals.maxIndex; i++){
+    for(let i = 1; i<=vals.maxIndex; i++){
       const imageUrl = `./imgs/frame_${i.toString().padStart(4, "0")}.jpg`;
       const img = new Image();
       img.src = imageUrl;
